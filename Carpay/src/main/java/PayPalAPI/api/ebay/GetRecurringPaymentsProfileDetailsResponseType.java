@@ -1,0 +1,134 @@
+/**
+ * GetRecurringPaymentsProfileDetailsResponseType.java
+ *
+ * This file was auto-generated from WSDL
+ * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
+ */
+
+package PayPalAPI.api.ebay;
+
+public class GetRecurringPaymentsProfileDetailsResponseType  extends eBLBaseComponents.apis.ebay.AbstractResponseType  implements java.io.Serializable {
+    private eBLBaseComponents.apis.ebay.GetRecurringPaymentsProfileDetailsResponseDetailsType getRecurringPaymentsProfileDetailsResponseDetails;
+
+    public GetRecurringPaymentsProfileDetailsResponseType() {
+    }
+
+    public GetRecurringPaymentsProfileDetailsResponseType(
+           java.util.Calendar timestamp,
+           eBLBaseComponents.apis.ebay.AckCodeType ack,
+           java.lang.String correlationID,
+           eBLBaseComponents.apis.ebay.ErrorType[] errors,
+           java.lang.String version,
+           java.lang.String build,
+           org.apache.axis.message.MessageElement [] _any,
+           eBLBaseComponents.apis.ebay.GetRecurringPaymentsProfileDetailsResponseDetailsType getRecurringPaymentsProfileDetailsResponseDetails) {
+        super(
+            timestamp,
+            ack,
+            correlationID,
+            errors,
+            version,
+            build,
+            _any);
+        this.getRecurringPaymentsProfileDetailsResponseDetails = getRecurringPaymentsProfileDetailsResponseDetails;
+    }
+
+
+    /**
+     * Gets the getRecurringPaymentsProfileDetailsResponseDetails value for this GetRecurringPaymentsProfileDetailsResponseType.
+     * 
+     * @return getRecurringPaymentsProfileDetailsResponseDetails
+     */
+    public eBLBaseComponents.apis.ebay.GetRecurringPaymentsProfileDetailsResponseDetailsType getGetRecurringPaymentsProfileDetailsResponseDetails() {
+        return getRecurringPaymentsProfileDetailsResponseDetails;
+    }
+
+
+    /**
+     * Sets the getRecurringPaymentsProfileDetailsResponseDetails value for this GetRecurringPaymentsProfileDetailsResponseType.
+     * 
+     * @param getRecurringPaymentsProfileDetailsResponseDetails
+     */
+    public void setGetRecurringPaymentsProfileDetailsResponseDetails(eBLBaseComponents.apis.ebay.GetRecurringPaymentsProfileDetailsResponseDetailsType getRecurringPaymentsProfileDetailsResponseDetails) {
+        this.getRecurringPaymentsProfileDetailsResponseDetails = getRecurringPaymentsProfileDetailsResponseDetails;
+    }
+
+    private java.lang.Object __equalsCalc = null;
+    public synchronized boolean equals(java.lang.Object obj) {
+        if (!(obj instanceof GetRecurringPaymentsProfileDetailsResponseType)) return false;
+        GetRecurringPaymentsProfileDetailsResponseType other = (GetRecurringPaymentsProfileDetailsResponseType) obj;
+        if (obj == null) return false;
+        if (this == obj) return true;
+        if (__equalsCalc != null) {
+            return (__equalsCalc == obj);
+        }
+        __equalsCalc = obj;
+        boolean _equals;
+        _equals = super.equals(obj) && 
+            ((this.getRecurringPaymentsProfileDetailsResponseDetails==null && other.getGetRecurringPaymentsProfileDetailsResponseDetails()==null) || 
+             (this.getRecurringPaymentsProfileDetailsResponseDetails!=null &&
+              this.getRecurringPaymentsProfileDetailsResponseDetails.equals(other.getGetRecurringPaymentsProfileDetailsResponseDetails())));
+        __equalsCalc = null;
+        return _equals;
+    }
+
+    private boolean __hashCodeCalc = false;
+    public synchronized int hashCode() {
+        if (__hashCodeCalc) {
+            return 0;
+        }
+        __hashCodeCalc = true;
+        int _hashCode = super.hashCode();
+        if (getGetRecurringPaymentsProfileDetailsResponseDetails() != null) {
+            _hashCode += getGetRecurringPaymentsProfileDetailsResponseDetails().hashCode();
+        }
+        __hashCodeCalc = false;
+        return _hashCode;
+    }
+
+    // Type metadata
+    private static org.apache.axis.description.TypeDesc typeDesc =
+        new org.apache.axis.description.TypeDesc(GetRecurringPaymentsProfileDetailsResponseType.class, true);
+
+    static {
+        typeDesc.setXmlType(new javax.xml.namespace.QName("urn:ebay:api:PayPalAPI", "GetRecurringPaymentsProfileDetailsResponseType"));
+        org.apache.axis.description.ElementDesc elemField = new org.apache.axis.description.ElementDesc();
+        elemField.setFieldName("getRecurringPaymentsProfileDetailsResponseDetails");
+        elemField.setXmlName(new javax.xml.namespace.QName("urn:ebay:apis:eBLBaseComponents", "GetRecurringPaymentsProfileDetailsResponseDetails"));
+        elemField.setXmlType(new javax.xml.namespace.QName("urn:ebay:apis:eBLBaseComponents", "GetRecurringPaymentsProfileDetailsResponseDetailsType"));
+        elemField.setNillable(false);
+        typeDesc.addFieldDesc(elemField);
+    }
+
+    /**
+     * Return type metadata object
+     */
+    public static org.apache.axis.description.TypeDesc getTypeDesc() {
+        return typeDesc;
+    }
+
+    /**
+     * Get Custom Serializer
+     */
+    public static org.apache.axis.encoding.Serializer getSerializer(
+           java.lang.String mechType, 
+           java.lang.Class _javaType,  
+           javax.xml.namespace.QName _xmlType) {
+        return 
+          new  org.apache.axis.encoding.ser.BeanSerializer(
+            _javaType, _xmlType, typeDesc);
+    }
+
+    /**
+     * Get Custom Deserializer
+     */
+    public static org.apache.axis.encoding.Deserializer getDeserializer(
+           java.lang.String mechType, 
+           java.lang.Class _javaType,  
+           javax.xml.namespace.QName _xmlType) {
+        return 
+          new  org.apache.axis.encoding.ser.BeanDeserializer(
+            _javaType, _xmlType, typeDesc);
+    }
+
+}

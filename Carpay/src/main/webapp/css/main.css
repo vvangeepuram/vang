@@ -1,0 +1,349 @@
+.main-container {
+	width:700px;
+	height:500px;
+}
+.main-container> .top-container {
+	background-color: #435562;
+	width:100%;
+	height: 38%;
+}
+.main-container> .left-container {
+	background-color: #435562;
+	width:250px;
+	height: 500px;
+	float: left;
+}
+.top-container> img {
+	float: right;
+}
+.top-container> .carPrice {
+	width: 255px;
+	margin-top: 20px;
+}
+
+.top-container> h2 {
+	color: white;
+	font-size: 25px;
+	margin-top: 0px;
+}
+.top-container> h3 {
+	color: white;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-left: 16px;
+}
+.top-container> .sold-tag {
+	position: absolute;
+	margin-left: 438px;
+}
+.top-container> .dealer-logo {
+	float: left;
+}
+.left-container> .vehicle_left {
+	margin-top: 0px;
+}
+.left-container> .dealer_logo_left {
+	margin-top: 0px;
+}
+
+.left-container> .vdata-container {
+	margin-left: 14px;
+	margin-top: 5px;
+}
+.vdata-container> b {
+	color: #FFFFFF;
+}
+
+.vdata-container> table {
+	margin-top: 20px;
+	float:left;
+}
+.vdata-container .vdata-saleprice {
+	font-size: 21px;
+	font-weight:bold;
+}
+.sticker_price {
+	padding-left: 15px;
+}
+.btn-link-text {
+	color:#4ca773;
+	font-size: 14px;
+	margin-left: 20px;
+	font-weight: bold;
+	
+}
+.vdata-container div{
+	color: #FFFFFF;
+	float: left;
+}
+.vattr-name {
+	color: #FFFFFF;
+	letter-spacing: 0.7px;
+	font-weight: 400;
+	font-size: 10px;
+}
+.vattr-value {
+	color: #FFFFFF;
+	/* margin-right: 19px; */
+	font-weight: 400;
+	font-size:11px;
+	letter-spacing: 1.0px;
+	float: right;
+}
+.main-container> .right-container {
+	background-color: #FCFAFA;
+	right:0;
+	height:500px;
+	width:450px;
+	float:right;
+}
+
+.main-container> .bottom-container {
+	background-color:#FFFFFF;
+	height:62%;
+	width:100%;
+	margin-top: 10px;
+
+}
+.thk-caution {
+	margin-left: 30px;
+	margin-right: 30px;
+	background-color: #fdfdc8;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.green-text {
+	color: #4ca773;
+}
+.bottom-container> img {
+	float:left;
+}
+.thk-msg-container {
+	float:left;
+}
+.thk-btn-container {
+	float:left;
+	position: absolute;
+	top: 376px;
+}
+.thk-btn-container> p {
+	margin-top: 78px;
+}
+.thk-msg-container> .thk-msg-row1{
+	margin-top:20px;
+}
+.thk-msg-container> p {
+	margin-left: 14px;
+}
+#svyBtn {
+	margin-right:20px;
+	float: left;
+	margin-top: 30px;
+	width: 180px;
+}
+#cancelBtn {
+	margin-left:20px;
+	float:left;
+	margin-top: 20px;
+}
+input {
+	height: 44px;
+}
+
+.right-container> b {
+	float:right;
+	color: #4ca773;
+}
+.error_div {
+	background-color:orange;
+	margin-left: 17px;
+	margin-top: 5px;
+	display: none;
+	width: 400px;
+	height: 25px;
+	color: white;
+	font-weight: bold;
+	font-size: 9px;
+}
+.right-container> h2 {
+	margin-left: 12px;
+	margin-top:17px;
+}
+.right-container> h3 {
+	font-size: 13px;
+	margin-left: 14px;
+	font-weight: 400;
+	margin-top: 17px;
+}
+.right-container> h4 {
+	font-size: 11px;
+	margin-left: 14px;
+	font-weight: 400;
+}
+#cp_firstName, #cp_lastName {
+	margin-left: 29px;
+	margin-top: 28px;
+}
+#cp_email {
+	margin-left: 14px;
+	margin-top: 16px;
+	width: 424px;
+}
+#cp_billingName{
+	margin-left: 40px;
+	margin-top: 25px;
+	width: 367px;
+}
+#phoneNumber, #cp_ccNum, #cp_zip {
+	margin-left: 14px;
+	margin-top: 14px;
+}
+#cp_expDate{
+	width: 80px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+#cp_expDate{
+	width: 80px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+#cp_cvv {
+	width: 70px;
+	margin-left: 25px;
+	margin-top: 25px;
+}
+#submitBtn {
+	float: left;
+	margin-left: 30px;
+	margin-top: 28px;
+	width: 190px;
+}
+.span4> .backBtn{
+	float:left;
+	margin-left:20px;
+	margin-top:80px;
+	width: 80px;
+}
+#purchaseBtn {
+	margin-left:28px;
+	margin-top:20px;
+	width: 220px;
+}
+#closeBtn {
+	margin-left:14px;
+	margin-top:20px;
+	width: 150px;
+}
+.thk-vdata {
+	margin-left:20px;
+	margin-top:20px;
+}
+.thk-vdata h2, h3 {
+	margin-top: 26px;
+	margin-left: 20px;
+}
+
+.svy-questions p, input {
+	margin-left:14px;
+	margin-top: 25px;
+}
+
+.stepFont {
+	float:right;
+	font-weight: 500;
+	font-size: 10px;
+	margin-right: 14px;
+	margin-top: 5px;
+	color: #435562;
+}
+
+.carTitle {
+	color: #FFFFFF;
+	float: left;
+	margin-left: 14px;
+	margin-top:10px;
+	font-weight: 400;
+	font-size: 12px;
+	/* letter-spacing: 1.2px; */
+	width: 200px;
+}
+
+.carTitle2 {
+	color: #FFFFFF;
+	float: left;
+	margin-left: 14px;
+	margin-top:10px;
+	font-weight: 400;
+	font-size: 12px;
+	/* letter-spacing: 1.2px; */
+	width: 350px;
+}
+
+.carPrice {
+	color: #FFFFFF;
+	margin-left: 16px; 
+	font-weight: 400;
+	font-size: 20px;
+	letter-spacing: 1.2px;
+	width: 100px;
+}
+.error {
+	border-color: red;
+}
+
+input[type=radio].css-checkbox {
+	display:none;
+}
+
+input[type=radio].css-checkbox + label.css-label {
+	padding-left:24px;
+	margin-left: 20px;
+	height:19px; 
+	display:inline-block;
+	line-height:19px;
+	background-repeat:no-repeat;
+	background-position: 0 0;
+	font-size:12px;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+input[type=radio].css-checkbox:checked + label.css-label {
+	background-position: 0 -19px;
+}
+label.css-label {
+	background-image:url(http://csscheckbox.com/checkboxes/u/csscheckbox_57e477707a6b77f07ddc83fc2277f4d8.png);
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.secure_img {
+	vertical-align: text-top;
+}
+
+.secure_img> img {
+	margin-left: 20px;
+	margin-top: 25px;
+}
+.secure_image {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(29, 106, 154, 0.72);
+	color: #fff;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.secure_img:hover .secure_image {
+	visibility: visible;
+	opacity: 1;
+}
+
